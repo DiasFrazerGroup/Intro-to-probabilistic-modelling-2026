@@ -29,6 +29,7 @@ Click the Colab badge to open a notebook directly in Google Colab. The notebooks
 
 ### Session 2 — Latent variable models
 - [`Session2a_HierarchicalModels_WithAnswers.ipynb`](Session2a_HierarchicalModels_WithAnswers.ipynb)  [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DiasFrazerGroup/Intro-to-probabilistic-modelling-2026/blob/main/Session2a_HierarchicalModels_WithAnswers.ipynb)
+- [`Session2b_ProteinVAE_WithAnswers.ipynb`](Session2b_ProteinVAE_WithAnswers.ipynb)  [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DiasFrazerGroup/Intro-to-probabilistic-modelling-2026/blob/main/Session2b_ProteinVAE_WithAnswers.ipynb)
 
 ### Session 3 — Experimental design
 - [`Session3a_BOED_WithAnswers.ipynb`](Session3a_BOED_WithAnswers.ipynb)  [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DiasFrazerGroup/Intro-to-probabilistic-modelling-2026/blob/main/Session3a_BOED_WithAnswers.ipynb)
@@ -44,6 +45,8 @@ If you would rather work outside Colab:
 git clone https://github.com/DiasFrazerGroup/Intro-to-probabilistic-modelling-2026.git
 cd Intro-to-probabilistic-modelling-2026
 pip install pymc arviz numpy scipy matplotlib jupyter
+# The Session 2 protein VAE notebook additionally needs:
+pip install torch
 jupyter notebook
 ```
 
